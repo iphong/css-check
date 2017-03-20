@@ -3,7 +3,7 @@
  * @param property
  * @returns {boolean}
  */
-export function isValidProperty( property ) {
+module.exports = function isValidProperty( property ) {
 
     return true
 }

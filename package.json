@@ -4,7 +4,7 @@
   "description": "Check CSS property and value validity according to W3C",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/iphong/css-check/issues"
   },
-  "homepage": "https://github.com/iphong/css-check#readme"
+  "homepage": "https://github.com/iphong/css-check#readme",
+  "devDependencies": {
+    "mocha": "0.0.1"
+  }
 }

@@ -4,7 +4,7 @@
  * @param value
  * @returns {boolean}
  */
-export function isValidValue( property, value ) {
+module.exports = function isValidValue( property, value ) {
 
     return true
 }

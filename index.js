@@ -1,3 +1,6 @@
+/**
+ * Created by Phong Vu on 3/20/2017
+ */
 
-export * from './src/isValidProperty'
-export * from './src/isValidValue'
+exports.isValidProperty = require('./src/isValidProperty')
+exports.isValidValue = require('./src/isValidValue')
